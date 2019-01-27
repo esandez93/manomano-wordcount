@@ -1,0 +1,8 @@
+.EditArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditArea .HighlightArea + .Button {
+  margin-top: 300px;
+}

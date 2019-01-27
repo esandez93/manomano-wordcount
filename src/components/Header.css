@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  position: fixed;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C193A;
+  z-index: 3;
+}
+
+.Header .title {
+  color: white;
+  margin-left: 14px;
+  font-size: 48px;
+  font-family: sans-serif;
+}

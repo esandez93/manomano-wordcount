@@ -1,0 +1,46 @@
+.HighlightArea {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+}
+
+.HighlightArea .Highlight-backdrop {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  background-color: white;
+  position: absolute;
+  pointer-events: none;
+  padding: 10px;
+}
+
+.HighlightArea .Highlights {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.HighlightArea .Highlights mark {
+  border-radius: 3px;
+  color: transparent;
+  background-color: #29B9AD;
+  padding: 0px 2px 4px 4px;
+}
+
+.HighlightArea textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  position: absolute;
+  z-index: 1;
+  resize: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,21 @@
+.Footer {
+  background-color: #0C193A;
+  height: 80px;
+  color: white;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  z-index: 1;
+}
+
+.Footer .IconText {
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+  cursor: pointer;
+}
+.Footer .IconText img {
+  height: 24px;
+  width: 24px;
+  margin-right: 6px;
+}
