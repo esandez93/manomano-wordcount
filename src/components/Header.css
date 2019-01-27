@@ -1,7 +1,8 @@
 .Header {
   display: flex;
+  flex-wrap: wrap;
   position: fixed;
-  height: 125px;
+  min-height: 125px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -14,4 +15,13 @@
   margin-left: 14px;
   font-size: 48px;
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    position: absolute;
+  }
+  .Header .title {
+    font-size: 32px;
+  }
 }

@@ -1,10 +1,11 @@
 .Footer {
   background-color: #0C193A;
-  height: 80px;
+  min-height: 80px;
   color: white;
   box-sizing: border-box;
   padding: 24px;
   display: flex;
+  flex-wrap: wrap;
   z-index: 1;
 }
 
@@ -18,4 +19,37 @@
   height: 24px;
   width: 24px;
   margin-right: 6px;
+}
+
+.Footer .personal-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+@media screen and (min-width: 330px) and (max-width: 768px) {
+  .Footer .personal-info {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px; 
+  }
+
+  .Footer .IconText {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .Footer .personal-info {
+    margin-bottom: 10px;
+  }
+  .Footer .personal-info span {
+    margin-bottom: 5px;
+  }
+
+  .Footer .IconText {
+    margin-bottom: 5px;
+  }
 }

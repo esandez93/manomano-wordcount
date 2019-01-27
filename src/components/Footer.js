@@ -18,13 +18,13 @@ class Footer extends Component {
   render () {
     return (
       <div className="Footer">
-        <div style={{ marginRight: '100px' }}>
+        <div className="personal-info">
           <span style={{ fontWeight: 'bold', display: 'block' }}>Eric Sández Riballo</span>
           <span>+34 675 274 372</span>
         </div>
         <IconText icon={linkedin} text="Eric Sández" onClick={() => { window.open('https://www.linkedin.com/in/esandez93','_blank') }}/>
-        <IconText icon={mail} text="esandez93@gmail.com" onClick={() => { window.open('mailto:esandez93@gmail.com') }} />
         <IconText icon={github} text="/esandez93" onClick={() => { window.open('https://github.com/esandez93', '_blank') }} />
+        <IconText icon={mail} text="esandez93@gmail.com" onClick={() => { window.open('mailto:esandez93@gmail.com') }} />
       </div>
     );
   }
