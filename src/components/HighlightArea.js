@@ -10,10 +10,6 @@ class HighlightArea extends Component {
     };
   }
 
-  componentDidMount () {
-
-  }
-
   componentDidUpdate() {
     this.refs.textarea.scrollTop = this.state.scrollTop;
   }
@@ -33,7 +29,7 @@ class HighlightArea extends Component {
   applyHighlights = (text, word) => {
     return text
         .replace(/\n$/g, '\n\n')
-        .replace(new RegExp('(?<= |^)'+word+'(?= |$)', 'gmi'), '<mark>$&</mark>');
+        .replace(new RegExp('(?<= |^)'+word+'(?= |,|$)', 'gmi'), '<mark>$&</mark>');
   }
 
   componentWillReceiveProps (nextProps) {

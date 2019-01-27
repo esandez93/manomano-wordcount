@@ -13,6 +13,7 @@
   position: absolute;
   pointer-events: none;
   padding: 10px;
+  border: 2px solid #D4D4D4;
 }
 
 .HighlightArea .Highlights {
@@ -28,6 +29,9 @@
   color: transparent;
   background-color: #29B9AD;
   padding: 0px 2px 4px 4px;
+  position: relative;
+  right: 3px;
+  bottom: 1px;
 }
 
 .HighlightArea textarea {

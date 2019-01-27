@@ -21,7 +21,6 @@ class Footer extends Component {
         <div style={{ marginRight: '100px' }}>
           <span style={{ fontWeight: 'bold', display: 'block' }}>Eric Sández Riballo</span>
           <span>+34 675 274 372</span>
-          <span></span>
         </div>
         <IconText icon={linkedin} text="Eric Sández" onClick={() => { window.open('https://www.linkedin.com/in/esandez93','_blank') }}/>
         <IconText icon={mail} text="esandez93@gmail.com" onClick={() => { window.open('mailto:esandez93@gmail.com') }} />
