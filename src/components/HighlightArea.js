@@ -29,11 +29,14 @@ class HighlightArea extends Component {
   applyHighlights = (text, word) => {
     return text
         .replace(/\n$/g, '\n\n')
-        .replace(new RegExp('(?<= |^)'+word+'(?= |,|$)', 'gmi'), '<mark>$&</mark>');
+        .replace(new RegExp('(?<= |^)'+word+'(?= |,|.|$)', 'gmi'), '<mark>$&</mark>');
   }
 
   componentWillReceiveProps (nextProps) {
-    if (!nextProps.highlight) return;
+    if (!nextProps.highlight) {
+      this.setState({ highlights: null });
+      return;
+    }
 
     const highlights = this.applyHighlights(this.refs.textarea.value, nextProps.highlight);
     this.setState({ highlights: highlights });

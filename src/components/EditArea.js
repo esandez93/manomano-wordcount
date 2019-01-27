@@ -33,7 +33,7 @@ class EditArea extends Component {
   }
 
   clear = () => {
-    this.setState({ text: '' });
+    this.setState({ text: '', highlight: null });
   }
 
   updateText = (text) => {

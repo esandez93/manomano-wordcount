@@ -1,4 +1,4 @@
-const wordsCount  = (text, withOrder) => {
+const wordsCount = (text, withOrder) => {
   // Split through words
   const words = text.split(/\W+/);
   const counts = {};
