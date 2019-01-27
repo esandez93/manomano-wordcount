@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a8c305047176e4f77133",
-    "url": "/manomano-wordcount/static/css/main.9f38697b.chunk.css"
+    "revision": "0d05e24171de038cef4e",
+    "url": "/manomano-wordcount/static/css/main.fc432af9.chunk.css"
   },
   {
-    "revision": "a8c305047176e4f77133",
-    "url": "/manomano-wordcount/static/js/main.a8c30504.chunk.js"
+    "revision": "0d05e24171de038cef4e",
+    "url": "/manomano-wordcount/static/js/main.0d05e241.chunk.js"
   },
   {
     "revision": "1a596ca731a12bb19d37",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/manomano-wordcount/static/media/manomano-logo.25b2df25.svg"
   },
   {
-    "revision": "13991e4637bae9dce4798a3c8502d96a",
+    "revision": "7b0ec8b0903212a1387e9cfe09fe52af",
     "url": "/manomano-wordcount/index.html"
   }
 ];
