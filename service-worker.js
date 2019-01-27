@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/manomano-wordcount/precache-manifest.b4a4b630efe8262d252e472d4f4460fb.js"
+  "/manomano-wordcount/precache-manifest.dd60f74d0d8a9935a9340402b016bfde.js"
 );
 
 workbox.clientsClaim();
